@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Info Form</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        name : <input type="text" id="info" name="info"><br>
+        age : <input type="text" id="info1" name="info1"><br>
+        blood type : <input type="text" id="info2" name="info2"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
